@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "configProperties": {
+    "name": "default"
+  },
+  "categories": [
+    {
+      "id": "8134d091-4b02-41ad-8320-7ddbd3cb6910",
+      "name": "MyFirstCategory",
+      "position": 1
+    },
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f",
+      "position": 2,
+      "name": "Welcome to Homarr 🎉",
+      "type": "category"
+    }
+  ],
+  "wrappers": [
+    {
+      "id": "default",
+      "position": 0
+    },
+    {
+      "id": "7598250c-53d7-494c-b96d-699ada0f2efb",
+      "position": 2
+    },
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a326",
+      "position": 2
+    }
+  ],
+  "apps": [
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
+      "name": "Contribute",
+      "url": "https://github.com/ajnart/homarr",
+      "behaviour": {
+        "onClickUrl": "https://github.com/ajnart/homarr",
+        "externalUrl": "https://github.com/ajnart/homarr",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "okStatus": []
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/github.png"
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
+      "name": "Documentation",
+      "url": "https://homarr.dev",
+      "behaviour": {
+        "onClickUrl": "https://homarr.dev",
+        "externalUrl": "https://homarr.dev",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "okStatus": [
+          200
+        ]
+      },
+      "appearance": {
+        "iconUrl": "/imgs/logo/logo.png"
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a337",
+      "name": "Discord",
+      "url": "https://discord.com/invite/aCsmEV5RgA",
+      "behaviour": {
+        "onClickUrl": "https://discord.com/invite/aCsmEV5RgA",
+        "isOpeningNewTab": true,
+        "externalUrl": "https://discord.com/invite/aCsmEV5RgA"
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "okStatus": [
+          200
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/discord.png"
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 3,
+            "y": 1
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "b4998fbb-bb1a-472c-a25a-e111b551f37a",
+      "name": "CivTai (Easy-Diffusion models)",
+      "url": "https://civitai.com/",
+      "appearance": {
+        "iconUrl": "/imgs/logo/logo.png"
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "okStatus": [
+          200
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://civitai.com/"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "8134d091-4b02-41ad-8320-7ddbd3cb6910"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a990",
+      "name": "Donate",
+      "url": "https://ko-fi.com/ajnart",
+      "behaviour": {
+        "onClickUrl": "https://ko-fi.com/ajnart",
+        "externalUrl": "https://ko-fi.com/ajnart",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "okStatus": [
+          200
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/ko-fi.png"
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "f8d07245-3a0b-4eef-9ccc-93fb8477b695",
+      "name": "DALLE-E",
+      "url": "https://labs.openai.com/",
+      "appearance": {
+        "iconUrl": "/imgs/logo/logo.png"
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "okStatus": [
+          200
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://labs.openai.com/"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "8134d091-4b02-41ad-8320-7ddbd3cb6910"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "date",
+      "properties": {
+        "display24HourFormat": true
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "weather",
+      "properties": {
+        "displayInFahrenheit": false,
+        "location": "Paris"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a33f"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "common": {
+      "searchEngine": {
+        "type": "google",
+        "properties": {}
+      }
+    },
+    "customization": {
+      "layout": {
+        "enabledLeftSidebar": false,
+        "enabledRightSidebar": false,
+        "enabledDocker": false,
+        "enabledPing": false,
+        "enabledSearchbar": true
+      },
+      "pageTitle": "Homarr v0.11  ⭐️",
+      "logoImageUrl": "/imgs/logo/logo.png",
+      "faviconUrl": "/imgs/favicon/favicon-squared",
+      "backgroundImageUrl": "",
+      "customCss": "",
+      "colors": {
+        "primary": "red",
+        "secondary": "yellow",
+        "shade": 7
+      },
+      "appOpacity": 100
+    }
+  }
+}
